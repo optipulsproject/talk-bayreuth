@@ -1,0 +1,33 @@
+font.family: IBM Plex Sans
+font.weight: normal
+font.size:   6
+
+text.color: 23373B
+
+axes.titlesize:  10
+axes.labelsize:  10
+axes.facecolor:  FAFAFA
+axes.edgecolor:  23373B
+axes.linewidth:  0.6
+axes.labelcolor: 23373B
+
+legend.fontsize: 6
+
+lines.linewidth:  1
+lines.markersize: 5
+
+xtick.labelsize:   6
+xtick.color:       23373B
+xtick.labelcolor:  inherit
+xtick.major.width: 0.6
+xtick.minor.width: 0.4
+
+ytick.labelsize:   6
+ytick.color:       23373B
+ytick.labelcolor:  inherit
+ytick.major.width: 0.6
+ytick.minor.width: 0.4
+
+scatter.marker: x
+
+savefig.transparent: True

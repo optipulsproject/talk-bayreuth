@@ -1,0 +1,39 @@
+%!TeX root = ../tui19-talk-ws.tex
+
+\newcommand{\varR}{2.5}
+\newcommand{\varr}{1}
+\newcommand{\vardi}{0.5}
+\newcommand{\vardii}{0.8}
+\newcommand{\varrlas}{0.4}
+\newcommand{\varhlas}{0.8}
+
+\definecolor{mycoral}{RGB}{236,27,75}
+\definecolor{myorange}{RGB}{242,106,68}
+
+\begin{tikzpicture}[scale=1.2]
+
+
+
+	% fillers
+	\draw [draw=none, fill=gray!35] (-\varR,0) rectangle (\varR,-\vardi);
+	\draw [draw=none, fill=gray!15] (-\varR,-\vardi) rectangle (\varR,-\vardi-\vardii);
+
+
+
+	% lines
+	\draw (-\varR,-\vardi) -- (\varR,-\vardi);
+	\draw (-\varR,-\vardi-\vardii) -- (\varR,-\vardi-\vardii);
+	% \draw (-\varR,0) -- (-\varr,0);
+	% \draw (\varr,0) -- (\varR,0);
+
+
+	\draw [very thin, fill=gray!25] (0,0) ++(180:\varr) arc (180:360:\varr);
+
+	% Crack
+	\draw [thick] (1.9-2, -0.8) -- (1.99-2, -0.7) -- (1.872-2, -0.5) -- (1.92-2, -0.35) -- (1.88-2, -0.25) -- (1.93-2, -0.18)  -- (1.87-2, -0.12) -- (1.92-2, -0.04) -- (1.96-2, -0.05) -- (0,0);
+	\draw [thick] (1.6-2,-0.7) -- (1.65-2, -0.6) -- (1.78-2, -0.61) -- (1.872-2, -0.5);
+	\draw [thick] (2.05-2, -0.95) -- (2.1-2, -0.8) -- (1.99-2,-0.7);
+	\draw [thick] (2.2-2, -0.85) -- (2.1-2, -0.8);
+
+	\draw (-\varR,0) -- (\varR,0);
+\end{tikzpicture}

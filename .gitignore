@@ -1,0 +1,35 @@
+# LaTeX, latexmk related
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.lof
+*.loc
+*.log
+*.lot
+*.fls
+*.out
+*.soc
+*.toc
+*.run.xml
+*.synctex.gz
+
+# PDF files
+*.pdf
+
+# vim related
+*.swp
+*.swo
+
+numericals/zeroguess
+numericals/rampdown
+numericals/rampdown-noopt
+
+tables/zeroguess.tex
+tables/rampdown.tex
+
+plots/coefficients
+plots/optimized
+
+**/__pycache__
