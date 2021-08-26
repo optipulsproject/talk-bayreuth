@@ -21,8 +21,6 @@ cache:
 
 numericals:
   stage: compute
-  tags:
-    - optipuls
   image: optipulsproject/optipuls
   script: make numericals.all
   artifacts:
@@ -33,8 +31,6 @@ numericals:
 
 plots:
   stage: process
-  tags:
-    - optipuls
   image: optipulsproject/optipuls
   script: make plots.all
   artifacts:
@@ -44,8 +40,6 @@ plots:
 
 tables:
   stage: process
-  tags:
-    - optipuls
   image: optipulsproject/tabulate
   script: make tables.all
   artifacts:
@@ -55,8 +49,6 @@ tables:
 
 tex:
   stage: tex
-  tags:
-    - optipuls
   image: optipulsproject/publications
   script: make preprint
   artifacts:
