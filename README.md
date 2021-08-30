@@ -96,6 +96,15 @@ touch numericals/{rampdown,rampdown-noopt,zeroguess}/*
 4. Run the steps of the previous section. The numerical artifacts won't be recomputed.
 
 
+### GitLab CI/CD artifacts
+
+- `manuscript-numapde-preprint.pdf` (latest successful) [view][gitlab-pdf-view], [download][gitlab-pdf-download]
+- numericals (latest successful), [download][gitlab-numericals-download]
+
+
+
 [projectpage]: https://www.tu-chemnitz.de/mathematik/part_dgl/projects/optipuls/index.en.php "OptiPuls"
 
-[gitlab-numericals-download]: https://gitlab.hrz.tu-chemnitz.de/numapde/Publications/optimal-control-spot-welding/-/jobs/artifacts/master/download?job=numericals
+[gitlab-pdf-view]: https://gitlab.hrz.tu-chemnitz.de/numapde/projects/202005-aif-dvs-optipuls/talk-bayreuth/-/jobs/artifacts/master/file/manuscript-numapde-preprint.pdf?job=tex
+[gitlab-pdf-download]: https://gitlab.hrz.tu-chemnitz.de/numapde/projects/202005-aif-dvs-optipuls/talk-bayreuth/-/jobs/artifacts/master/raw/manuscript-numapde-preprint.pdf?job=tex
+[gitlab-numericals-download]: https://gitlab.hrz.tu-chemnitz.de/numapde/projects/202005-aif-dvs-optipuls/talk-bayreuth/-/jobs/artifacts/master/download?job=numericals
