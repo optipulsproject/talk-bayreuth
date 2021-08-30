@@ -29,7 +29,7 @@ $(SLIDES_PDF): \
 			$(SLIDES_TEX) \
 			plots.all \
 			tables.all
-	latexmk -xelatex -force $(SLIDES_TEX)
+	latexmk -xelatex -f $(SLIDES_TEX)
 
 plots/coefficients/vhc.pdf: \
 		plots/_src/vhc.py \
