@@ -50,7 +50,7 @@ tables:
 tex:
   stage: tex
   image: optipulsproject/publications
-  script: make preprint
+  script: make slides
   artifacts:
     paths:
       - slides-bayreuth.pdf
