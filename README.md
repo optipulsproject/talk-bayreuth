@@ -1,6 +1,8 @@
 An optimal control problem for single spot pulsed laser welding
 ===============================================================
 
+[![pipeline status](https://gitlab.hrz.tu-chemnitz.de/numapde/projects/202005-aif-dvs-optipuls/talk-bayreuth/badges/master/pipeline.svg)](https://gitlab.hrz.tu-chemnitz.de/numapde/projects/202005-aif-dvs-optipuls/talk-bayreuth/-/commits/master)
+
 Joint Workshop of GAMM Activity Groups "Dynamics and Control Theory" and "Optimization with Partial Differential Equations" in Bayreuth, 2021.
 
 **Authors:** Dmytro Strelnikov <dmytro.strelnikov@math.tu-chemnitz.de>, Roland Herzog <roland.herzog@math.tu-chemnitz.de>  
