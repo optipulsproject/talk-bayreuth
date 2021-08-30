@@ -20,7 +20,7 @@ RAMPDOWN_NOOPT_REPORTS = $(subst rampdown,rampdown-noopt, $(RAMPDOWN_REPORTS))
 
 # a dirty hack to make optenv package visible for the python scripts
 # works only if make is called from the project root dir (which is normally the case)
-export PYTHONPATH = :
+# export PYTHONPATH = :
 
 
 slides: $(SLIDES_PDF)
@@ -29,7 +29,7 @@ $(SLIDES_PDF): \
 			$(SLIDES_TEX) \
 			plots.all \
 			tables.all
-	latexmk -xelatex -silent $(SLIDES_TEX)
+	latexmk -xelatex -force $(SLIDES_TEX)
 
 plots/coefficients/vhc.pdf: \
 		plots/_src/vhc.py \
